@@ -4,15 +4,13 @@
   "descripcionCorta": "Nature and adventure travel company. We design low-impact expeditions that support conservation and local communities.",
   "canalReserva": "email",
   "contacto": {
-    "whatsapp": "59170000000",
-    "whatsappVisible": "+591 700 00000",
+    "whatsapp": "59171538715",
+    "whatsappVisible": "+591 715 38715",
     "email": "reservas@natuviatravel.com",
     "ciudad": "Santa Cruz de la Sierra, Bolivia"
   },
   "redes": [
-    { "nombre": "Instagram", "url": "https://instagram.com/" },
-    { "nombre": "TikTok", "url": "https://tiktok.com/" },
-    { "nombre": "Facebook", "url": "https://facebook.com/" }
+    { "nombre": "Instagram", "url": "https://www.instagram.com/natuvia.travel?rpxt=MW01c3Q5aWE5OXQ3YQ==" }
   ],
   "navegacion": [
     { "texto": "The experience", "destino": "#experiencia" },
