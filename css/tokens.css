@@ -1,0 +1,46 @@
+:root {
+  /* Paleta */
+  --hueso: #DAD7CD;
+  --hueso-claro: #E6E4DC;
+  --salvia: #A3B18A;
+  --helecho: #588157;
+  --bosque: #3A5A40;
+  --monte: #344E41;
+
+  /* Roles */
+  --texto: var(--monte);
+  --texto-suave: #45594C;
+  --linea: var(--salvia);
+  --linea-oscura: rgba(218, 215, 205, 0.16);
+
+  /* Tipografía */
+  --f-titulo: "Cormorant Garamond", Garamond, "Times New Roman", serif;
+  --f-texto: "Work Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --t-xs: 0.8125rem;
+  --t-s: 0.9375rem;
+  --t-m: 1.0625rem;
+  --t-l: 1.25rem;
+  --t-xl: clamp(1.625rem, 2.6vw, 2.125rem);
+  --t-2xl: clamp(2.375rem, 5vw, 3.75rem);
+  --t-3xl: clamp(3rem, 7.4vw, 7rem);
+
+  /* Espaciado y medidas */
+  --e-1: 0.5rem;
+  --e-2: 1rem;
+  --e-3: 1.5rem;
+  --e-4: 2.5rem;
+  --e-5: 3.5rem;
+  --e-6: 5rem;
+  --seccion: clamp(5rem, 11vw, 9rem);
+  --ancho: 76rem;
+  --medida: 38rem;
+  --encabezado-alto: 4.5rem;
+
+  --radio-s: 6px;
+  --radio-m: 14px;
+
+  /* Movimiento */
+  --ease-salida: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-estado: cubic-bezier(0.4, 0, 0.2, 1);
+}

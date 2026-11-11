@@ -1,0 +1,76 @@
+{
+  "nombre": "Natuvia Travel",
+  "marca": { "nombre": "Natuvia", "complemento": "Travel" },
+  "descripcionCorta": "Agencia de turismo de naturaleza y aventura. Diseñamos expediciones de bajo impacto que apoyan la conservación y a las comunidades locales.",
+  "canalReserva": "whatsapp",
+  "contacto": {
+    "whatsapp": "59171538715",
+    "whatsappVisible": "+591 715 38715",
+    "email": "natuviatravel@gmail.com",
+    "ciudad": "Santa Cruz de la Sierra, Bolivia"
+  },
+  "redes": [
+    { "nombre": "Instagram", "url": "https://www.instagram.com/natuvia.travel?rpxt=MW01c3Q5aWE5OXQ3YQ==" }
+  ],
+  "navegacion": [
+    { "texto": "La experiencia", "destino": "#experiencia" },
+    { "texto": "Actividades", "destino": "#actividades" },
+    { "texto": "Itinerario", "destino": "#itinerario" },
+    { "texto": "Información práctica", "destino": "#info" }
+  ],
+  "textos": {
+    "carrusel": { "anterior": "Foto anterior", "siguiente": "Foto siguiente", "pausar": "Pausar", "reanudar": "Reanudar" },
+    "idiomaAlterno": { "codigo": "en", "texto": "English" },
+    "barra": { "aria": "Resumen del viaje", "desde": "Desde" },
+    "saltar": "Saltar al contenido",
+    "navAria": "Principal",
+    "menu": "Menú",
+    "cerrar": "Cerrar",
+    "reservar": "Reservar",
+    "contacto": "Contacto",
+    "redes": "Redes",
+    "ficha": {
+      "aria": "Resumen del paquete",
+      "destino": "Destino",
+      "duracion": "Duración",
+      "modalidad": "Modalidad",
+      "grupo": "Grupo",
+      "grupoValor": "Máximo {n} personas",
+      "precio": "Precio por persona"
+    },
+    "actividades": {
+      "titulo": "Actividades",
+      "intro": "Todo gira en torno al guanaco, pero el Chaco tiene mucho más que mostrar en estos dos días."
+    },
+    "itinerario": {
+      "titulo": "Itinerario",
+      "dia": "Día",
+      "tabsAria": "Días de la expedición",
+      "principal": "Actividad principal"
+    },
+    "info": {
+      "titulo": "Información práctica",
+      "intro": "Lo que está incluido, lo que debes llevar y cómo cuidamos tu seguridad en zonas remotas."
+    },
+    "reserva": {
+      "titulo": "Reserva tu expedición",
+      "texto": "Cada salida lleva como máximo {n} personas. Envíanos tu fecha preferida y te confirmamos la disponibilidad.",
+      "nombre": "Nombre completo",
+      "fecha": "Fecha preferida",
+      "personas": "Personas",
+      "comentarios": "Comentarios (opcional)",
+      "boton": "Enviar solicitud por WhatsApp",
+      "ayuda": "Se abrirá WhatsApp con tu mensaje listo para enviar. ¿Prefieres correo? Escríbenos a {alterno}.",
+      "mensaje": {
+        "asunto": "Solicitud de reserva: {paquete}",
+        "saludo": "Hola, quiero reservar la {paquete}.",
+        "nombre": "Nombre",
+        "fecha": "Fecha preferida",
+        "personas": "Personas",
+        "comentarios": "Comentarios"
+      }
+    },
+    "foto": "Foto",
+    "ampliar": "Ampliar foto: {nombre}"
+  }
+}

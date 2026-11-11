@@ -1,0 +1,212 @@
+{
+  "id": "guanaco-chaco",
+  "nombre": "Guanaco Chaco Expedition",
+  "duracion": { "dias": 2, "noches": 1, "etiqueta": "2 días / 1 noche" },
+  "destino": {
+    "area": "Parque Nacional y ANMI Kaa-Iya del Gran Chaco",
+    "corto": "Kaa-Iya del Gran Chaco",
+    "region": "Santa Cruz"
+  },
+  "modalidad": "Ecoturismo de nicho, conservación activa y rastreo ético de fauna",
+  "modalidadCorta": "Ecoturismo y rastreo ético",
+  "grupoMax": 6,
+  "precio": { "monto": 2985, "moneda": "Bs", "texto": "2.985 Bs", "nota": "Precio por persona", "referencia": "aprox. 430 USD" },
+
+  "hero": {
+    "titulo": ["Tras la huella", "del *último* guanaco chaqueño"],
+    "bajada": "Sé parte de la expedición exclusiva para avistar a la última población de guanaco chaqueño en el bosque seco tropical más grande del mundo.",
+    "imagen": "assets/img/hero-guanaco.webp",
+    "alt": "Guanaco chaqueño entre el matorral seco del Gran Chaco",
+    "coordenadas": "19°05′ S, 61°21′ O",
+    "ctas": [
+      { "texto": "Reservar expedición", "destino": "#reservar", "tipo": "primario" },
+      { "texto": "Ver itinerario", "destino": "#itinerario", "tipo": "secundario" }
+    ]
+  },
+
+  "experiencia": {
+    "titulo": "Una expedición para ver al guanaco sin perturbarlo",
+    "introduccion": "Buscamos al guanaco chaqueño en las zonas abiertas de matorral bajo del Kaa-Iya, leyendo huellas y rastros, y lo observamos a distancia con ópticas de largo alcance.",
+    "destacado": {
+      "cifra": "~200",
+      "texto": "guanacos chaqueños sobreviven en Bolivia. Son la última población de tierras bajas y están en peligro crítico."
+    },
+    "puntos": [
+      {
+        "titulo": "Rastreo ético",
+        "descripcion": "Interpretamos huellas recientes e indicios de tránsito, y observamos con binoculares de alta definición y telescopios terrestres de 20-60x, siempre a distancia segura."
+      },
+      {
+        "titulo": "El único paquete enfocado en el guanaco",
+        "descripcion": "Otras expediciones al Kaa-Iya buscan al jaguar. Esta es la única en Bolivia dedicada al guanaco de tierras bajas."
+      },
+      {
+        "titulo": "Ciencia ciudadana",
+        "descripcion": "Registras tus avistamientos y fotos georreferenciadas en iNaturalist y eBird. Esos datos apoyan el monitoreo de la especie."
+      }
+    ]
+  },
+
+  "guanaco": {
+    "titulo": "Visto a través del telescopio, nunca de cerca",
+    "texto": "El guanaco chaqueño es desconfiado y su población es mínima. Lo rastreamos por sus huellas y lo observamos a distancia segura con telescopios de 20-60x, para que siga pastando como si no estuviéramos ahí.",
+    "imagen": "assets/img/guanaco-rastreo.webp",
+    "alt": "Grupo pequeño de guanacos chaqueños pastando en el matorral abierto",
+    "enfoque": "50% 50%",
+    "lente": "Telescopio terrestre 20–60x",
+    "pista": "Desliza para enfocar",
+    "credito": ""
+  },
+
+  "actividades": [
+    {
+      "titulo": "Safari fotográfico 4x4",
+      "momento": "Día 1, tarde y noche",
+      "descripcion": "Recorremos el Gran Chaco en vehículos equipados para avistar fauna: guanacos, tapires, pecaríes del Chaco, monos capuchinos y armadillos. De noche salimos a buscar rastros de jaguar y puma.",
+      "imagen": "assets/img/safari-4x4.webp",
+      "alt": "Vehículo 4x4 en una pista de tierra del Gran Chaco"
+    },
+    {
+      "titulo": "Astrofotografía bajo cielos limpios",
+      "momento": "Día 1, noche",
+      "descripcion": "Acampamos bajo uno de los cielos con menos contaminación lumínica del hemisferio sur, ideal para fotografiar constelaciones y la Vía Láctea.",
+      "imagen": "assets/img/astrofotografia.webp",
+      "alt": "Cielo estrellado sobre el campamento en el bosque seco"
+    },
+    {
+      "titulo": "Acecho en pozas al amanecer",
+      "momento": "Día 2, amanecer",
+      "descripcion": "Nos ubicamos en silencio cerca de los puntos de agua naturales, donde la fauna llega a beber en las primeras horas de la mañana.",
+      "imagen": "assets/img/pozas.webp",
+      "alt": "Poza de agua al amanecer rodeada de vegetación chaqueña"
+    },
+    {
+      "titulo": "Interpretación botánica",
+      "momento": "Día 2, mañana",
+      "descripcion": "Un recorrido guiado por la flora del bosque seco: quebracho blanco, cuchi, toborochi, palo santo y cactus gigantes.",
+      "imagen": "assets/img/botanica.webp",
+      "alt": "Toborochi y cactus en el bosque seco del Chaco"
+    }
+  ],
+
+  "galeria": {
+    "titulo": "Más del Chaco",
+    "intro": "El guanaco es el motivo del viaje, pero en el camino también podrías ver esto.",
+    "imagenes": [
+      { "imagen": "assets/img/galeria/tapir.webp", "pie": "Tapir", "alt": "Tapir caminando por el bosque seco", "credito": "" },
+      { "imagen": "assets/img/galeria/pecari.webp", "pie": "Pecarí del Chaco (taguá)", "alt": "Pecarí del Chaco sobre suelo arenoso", "credito": "" },
+      { "imagen": "assets/img/galeria/capuchino.webp", "pie": "Mono capuchino", "alt": "Mono capuchino sobre la rama de un árbol", "credito": "" },
+      { "imagen": "assets/img/galeria/huella-jaguar.webp", "pie": "Huella de jaguar", "alt": "Huella de jaguar marcada en la arena", "credito": "" },
+      { "imagen": "assets/img/galeria/toborochi.webp", "pie": "Toborochi en flor", "alt": "Toborochi con flores rosadas", "credito": "" },
+      { "imagen": "assets/img/galeria/palmares.webp", "pie": "Palmares al atardecer", "alt": "Siluetas de palmeras al atardecer en el Chaco", "credito": "" }
+    ]
+  },
+
+  "itinerario": {
+    "introduccion": "Dos días sincronizados con las horas de mayor actividad de la fauna: tardes y noches de safari, y amaneceres en las pozas.",
+    "dias": [
+      {
+        "dia": 1,
+        "titulo": "Incursión al Gran Chaco, safari 4x4 y astrofotografía",
+        "bloques": [
+          { "inicio": "06:00", "fin": "10:00", "titulo": "Salida desde Santa Cruz y tránsito a la región chaqueña", "descripcion": "Traslado privado en vehículos 4x4, con una charla introductoria sobre las normas Leave No Trace.", "principal": false },
+          { "inicio": "10:00", "fin": "13:00", "titulo": "Registro en el SERNAP y ritual de ingreso", "descripcion": "Trámite de ingreso al área protegida y ceremonia de respeto al Kaa-Iya, el «Dueño del Monte», junto a los guardaparques.", "principal": false },
+          { "inicio": "13:00", "fin": "14:30", "titulo": "Almuerzo de campo y preparación de equipos", "descripcion": "Almuerzo en el Campamento Tucavaca y protección de cámaras y ópticas contra el polvo.", "principal": false },
+          { "inicio": "14:30", "fin": "18:30", "titulo": "Safari fotográfico 4x4 y búsqueda del guanaco chaqueño", "descripcion": "Recorrido intensivo por el Derecho de Vía buscando manadas de guanacos y otros mamíferos emblemáticos.", "principal": true },
+          { "inicio": "18:30", "fin": "20:30", "titulo": "Montaje del campamento y fotografía de paisaje", "descripcion": "Armamos las carpas y fotografiamos la hora dorada sobre los palmares.", "principal": false },
+          { "inicio": "20:30", "fin": "23:00", "titulo": "Safari nocturno de grandes felinos y astrofotografía", "descripcion": "Salida nocturna en 4x4 en busca de rastros de jaguar y puma, y observación de constelaciones. Pernocte en carpas.", "principal": true }
+        ]
+      },
+      {
+        "dia": 2,
+        "titulo": "Acecho en pozas y rastreo de flora endémica",
+        "bloques": [
+          { "inicio": "05:30", "fin": "06:00", "titulo": "Despertar chaqueño y café de campo", "descripcion": "", "principal": false },
+          { "inicio": "06:00", "fin": "09:30", "titulo": "Acecho matutino en pozas y monitoreo de fauna", "descripcion": "Nos ubicamos en puntos de agua naturales para observar a la fauna que llega a beber.", "principal": false },
+          { "inicio": "09:30", "fin": "11:30", "titulo": "Rastreo botánico y desmontaje", "descripcion": "Segunda búsqueda del guanaco y recorrido guiado por la flora endémica, como el palo santo (Bulnesia sarmientoi) y los cactus gigantes. Luego levantamos el campamento.", "principal": false },
+          { "inicio": "11:30", "fin": "13:30", "titulo": "Almuerzo de cierre y charla de conservación", "descripcion": "", "principal": false },
+          { "inicio": "13:30", "fin": "18:00", "titulo": "Retorno a Santa Cruz", "descripcion": "", "principal": false }
+        ]
+      }
+    ]
+  },
+
+  "ruta": {
+    "titulo": "Recorrido",
+    "imagen": "assets/img/mapa-ruta.png",
+    "alt": "Mapa ilustrado de la ruta desde Santa Cruz de la Sierra, pasando por San José de Chiquitos, Taperas y Roboré, hasta el campamento base y la zona de alta actividad del guanaco",
+    "leyenda": "Ruta desde Santa Cruz de la Sierra hasta la zona de alta actividad del guanaco.",
+    "paradas": [
+      { "lugar": "Santa Cruz de la Sierra", "detalle": "Salida por la Carretera Bioceánica" },
+      { "lugar": "San José de Chiquitos", "detalle": "Ingreso hacia el sur" },
+      { "lugar": "Taperas", "detalle": "Parada técnica e interpretación de flora" },
+      { "lugar": "Roboré", "detalle": "Fin del asfalto e inicio de la pista 4x4" },
+      { "lugar": "Puesto de guardaparques", "detalle": "Registro institucional del SERNAP" },
+      { "lugar": "Campamento base", "detalle": "Armado de carpas y observación del atardecer" },
+      { "lugar": "Circuito de rastreo", "detalle": "Caminatas, huellas de guanaco, fauna y flora" },
+      { "lugar": "Zona de alta actividad del guanaco", "detalle": "Observación, fotografía y ciencia ciudadana" }
+    ]
+  },
+
+  "alojamiento": {
+    "titulo": "Aquí no hay habitaciones: dormimos bajo las estrellas",
+    "descripcion": "La noche se pasa en carpas, en un campamento dentro del área protegida. Llevamos todo el equipo de expedición, así que solo necesitas tu ropa y tu abrigo.",
+    "puntos": [
+      "Carpas y equipo de acampe de expedición incluidos",
+      "Alimentación completa preparada por cocineros de San José de Chiquitos",
+      "Días que pueden superar los 40 °C y noches frescas: trae abrigo"
+    ]
+  },
+
+  "sostenibilidad": {
+    "titulo": "Viajar sin dejar rastro",
+    "introduccion": "La expedición está diseñada para que el Kaa-Iya quede como lo encontramos y para que la conservación beneficie a quienes viven en el Chaco.",
+    "compromisos": [
+      {
+        "titulo": "No dejar rastro",
+        "descripcion": "Solo usamos rutas autorizadas por el SERNAP para evitar erosión y perturbaciones. Toda la basura sale del parque con nosotros."
+      },
+      {
+        "titulo": "Impacto local directo",
+        "descripcion": "Trabajamos con guardaparques de la Autonomía Indígena Charagua Iyambae y con guías, choferes y cocineros de San José de Chiquitos. El empleo local es un incentivo para proteger al guanaco en lugar de cazarlo."
+      }
+    ]
+  },
+
+  "infoPractica": [
+    {
+      "titulo": "Qué incluye",
+      "items": [
+        "Transporte 4x4 especializado con chofer",
+        "Guía naturalista bilingüe y guía local",
+        "Alimentación completa de campo e hidratación",
+        "Equipo de acampe de expedición",
+        "Uso de binoculares y telescopios terrestres",
+        "Ingreso al área protegida",
+        "Certificado de conservación"
+      ]
+    },
+    {
+      "titulo": "Qué llevar",
+      "items": [
+        "Ropa ligera de tonos neutros",
+        "Abrigo para la noche",
+        "Calzado de trekking",
+        "Repelente de insectos",
+        "Protector solar",
+        "Cámara con teleobjetivo",
+        "Linterna frontal"
+      ]
+    },
+    {
+      "titulo": "Seguridad y garantía",
+      "items": [
+        "Conductores certificados y vehículos con mantenimiento preventivo",
+        "Guías con certificación WFR y botiquín de primeros auxilios",
+        "Comunicación satelital y por radio",
+        "Protocolos claros de evacuación",
+        "Monitoreo diario de clima e incendios, con reprogramación si se cierra el acceso"
+      ]
+    }
+  ]
+}

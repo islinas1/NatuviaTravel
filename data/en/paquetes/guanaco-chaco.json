@@ -1,0 +1,212 @@
+{
+  "id": "guanaco-chaco",
+  "nombre": "Guanaco Chaco Expedition",
+  "duracion": { "dias": 2, "noches": 1, "etiqueta": "2 days / 1 night" },
+  "destino": {
+    "area": "Kaa-Iya del Gran Chaco National Park and Integrated Management Natural Area",
+    "corto": "Kaa-Iya del Gran Chaco",
+    "region": "Bolivia"
+  },
+  "modalidad": "Niche ecotourism, active conservation and ethical wildlife tracking",
+  "modalidadCorta": "Ecotourism & ethical tracking",
+  "grupoMax": 6,
+  "precio": { "monto": 430, "moneda": "USD", "texto": "US$430", "nota": "Per person", "referencia": "approx. Bs 2,985" },
+
+  "hero": {
+    "titulo": ["On the trail of", "the *last* Chaco guanaco"],
+    "bajada": "Join an exclusive expedition to spot the last population of Chaco guanacos in the largest tropical dry forest on Earth.",
+    "imagen": "assets/img/hero-guanaco.webp",
+    "alt": "Chaco guanaco among the dry scrubland of the Gran Chaco",
+    "coordenadas": "19°05′ S, 61°21′ W",
+    "ctas": [
+      { "texto": "Book the expedition", "destino": "#reservar", "tipo": "primario" },
+      { "texto": "See the itinerary", "destino": "#itinerario", "tipo": "secundario" }
+    ]
+  },
+
+  "experiencia": {
+    "titulo": "An expedition to see the guanaco without disturbing it",
+    "introduccion": "We search for the Chaco guanaco in the open scrublands of Kaa-Iya, reading tracks and signs, and watch it from a distance with long-range optics.",
+    "destacado": {
+      "cifra": "~200",
+      "texto": "Chaco guanacos survive in Bolivia. They are the country’s last lowland population, and they are critically endangered."
+    },
+    "puntos": [
+      {
+        "titulo": "Ethical tracking",
+        "descripcion": "We read fresh tracks and signs of movement, then observe through high-definition binoculars and 20–60x spotting scopes, always from a safe distance."
+      },
+      {
+        "titulo": "The only trip built around the guanaco",
+        "descripcion": "Other Kaa-Iya expeditions chase the jaguar. This is the only one in Bolivia dedicated to the lowland guanaco."
+      },
+      {
+        "titulo": "Citizen science",
+        "descripcion": "You log your sightings and geotagged photos on iNaturalist and eBird, adding data that supports monitoring of the species."
+      }
+    ]
+  },
+
+  "guanaco": {
+    "titulo": "Seen through a scope, never up close",
+    "texto": "Chaco guanacos are wary, and the population is tiny. We track them by their prints and watch from a safe distance through 20–60x spotting scopes, so they keep grazing as if we weren’t there.",
+    "imagen": "assets/img/guanaco-rastreo.webp",
+    "alt": "Small group of Chaco guanacos grazing in open scrubland",
+    "enfoque": "50% 50%",
+    "lente": "20–60x spotting scope",
+    "pista": "Scroll to focus",
+    "credito": ""
+  },
+
+  "actividades": [
+    {
+      "titulo": "4x4 photo safari",
+      "momento": "Day 1, afternoon and night",
+      "descripcion": "We cross the Gran Chaco in vehicles equipped for wildlife viewing: guanacos, tapirs, Chacoan peccaries, capuchin monkeys and armadillos. After dark, we look for signs of jaguar and puma.",
+      "imagen": "assets/img/safari-4x4.webp",
+      "alt": "4x4 vehicle on a dirt track in the Gran Chaco"
+    },
+    {
+      "titulo": "Astrophotography under clear skies",
+      "momento": "Day 1, night",
+      "descripcion": "We camp under some of the darkest skies in the Southern Hemisphere, perfect for photographing constellations and the Milky Way.",
+      "imagen": "assets/img/astrofotografia.webp",
+      "alt": "Starry sky over the camp in the dry forest"
+    },
+    {
+      "titulo": "Dawn watch at the waterholes",
+      "momento": "Day 2, sunrise",
+      "descripcion": "We settle quietly near natural waterholes, where wildlife comes to drink in the first hours of the morning.",
+      "imagen": "assets/img/pozas.webp",
+      "alt": "Waterhole at sunrise surrounded by Chaco vegetation"
+    },
+    {
+      "titulo": "Botanical interpretation",
+      "momento": "Day 2, morning",
+      "descripcion": "A guided walk through dry-forest flora: white quebracho, cuchi, toborochi (silk floss tree), palo santo and giant cacti.",
+      "imagen": "assets/img/botanica.webp",
+      "alt": "Toborochi tree and cacti in the Chaco dry forest"
+    }
+  ],
+
+  "galeria": {
+    "titulo": "More of the Chaco",
+    "intro": "The guanaco is why we go, but along the way you may also spot these.",
+    "imagenes": [
+      { "imagen": "assets/img/galeria/tapir.webp", "pie": "Lowland tapir", "alt": "Lowland tapir walking through dry forest", "credito": "" },
+      { "imagen": "assets/img/galeria/pecari.webp", "pie": "Chacoan peccary", "alt": "Chacoan peccary on sandy ground", "credito": "" },
+      { "imagen": "assets/img/galeria/capuchino.webp", "pie": "Capuchin monkey", "alt": "Capuchin monkey on a tree branch", "credito": "" },
+      { "imagen": "assets/img/galeria/huella-jaguar.webp", "pie": "Jaguar track", "alt": "Jaguar paw print in the sand", "credito": "" },
+      { "imagen": "assets/img/galeria/toborochi.webp", "pie": "Toborochi in bloom", "alt": "Toborochi tree with pink flowers", "credito": "" },
+      { "imagen": "assets/img/galeria/palmares.webp", "pie": "Palm groves at sunset", "alt": "Palm groves silhouetted at sunset in the Chaco", "credito": "" }
+    ]
+  },
+
+  "itinerario": {
+    "introduccion": "Two days timed to the hours when wildlife is most active: afternoon and night safaris, and sunrise at the waterholes.",
+    "dias": [
+      {
+        "dia": 1,
+        "titulo": "Into the Gran Chaco: 4x4 safari and astrophotography",
+        "bloques": [
+          { "inicio": "6:00 AM", "fin": "10:00 AM", "titulo": "Departure from Santa Cruz and drive to the Chaco region", "descripcion": "Private transfer in 4x4 vehicles, with an introductory briefing on Leave No Trace principles.", "principal": false },
+          { "inicio": "10:00 AM", "fin": "1:00 PM", "titulo": "SERNAP check-in and entry ritual", "descripcion": "Park entry paperwork and a ceremony of respect for the Kaa-Iya, the “Lord of the Forest,” with the park rangers.", "principal": false },
+          { "inicio": "1:00 PM", "fin": "2:30 PM", "titulo": "Field lunch and gear prep", "descripcion": "Lunch at Tucavaca Camp and dust-proofing cameras and optics.", "principal": false },
+          { "inicio": "2:30 PM", "fin": "6:30 PM", "titulo": "4x4 photo safari and search for the Chaco guanaco", "descripcion": "An intensive drive along the right-of-way searching for guanaco herds and other iconic mammals.", "principal": true },
+          { "inicio": "6:30 PM", "fin": "8:30 PM", "titulo": "Camp setup and landscape photography", "descripcion": "We pitch the tents and shoot the golden hour over the palm groves.", "principal": false },
+          { "inicio": "8:30 PM", "fin": "11:00 PM", "titulo": "Night safari for big cats and astrophotography", "descripcion": "A night drive looking for signs of jaguar and puma, plus stargazing. Overnight in tents.", "principal": true }
+        ]
+      },
+      {
+        "dia": 2,
+        "titulo": "Waterhole watch and native plant tracking",
+        "bloques": [
+          { "inicio": "5:30 AM", "fin": "6:00 AM", "titulo": "Chaco wake-up and field coffee", "descripcion": "", "principal": false },
+          { "inicio": "6:00 AM", "fin": "9:30 AM", "titulo": "Morning watch at the waterholes and wildlife monitoring", "descripcion": "We position ourselves at natural waterholes to observe wildlife coming to drink.", "principal": false },
+          { "inicio": "9:30 AM", "fin": "11:30 AM", "titulo": "Botanical tracking and camp breakdown", "descripcion": "A second search for guanacos and a guided walk through endemic plants such as palo santo (Bulnesia sarmientoi) and giant cacti. Then we break camp.", "principal": false },
+          { "inicio": "11:30 AM", "fin": "1:30 PM", "titulo": "Farewell lunch and conservation talk", "descripcion": "", "principal": false },
+          { "inicio": "1:30 PM", "fin": "6:00 PM", "titulo": "Return to Santa Cruz", "descripcion": "", "principal": false }
+        ]
+      }
+    ]
+  },
+
+  "ruta": {
+    "titulo": "Route",
+    "imagen": "assets/img/mapa-ruta.png",
+    "alt": "Illustrated route map from Santa Cruz de la Sierra through San José de Chiquitos, Taperas and Roboré to the base camp and the high guanaco activity zone",
+    "leyenda": "Route from Santa Cruz de la Sierra to the high guanaco activity zone.",
+    "paradas": [
+      { "lugar": "Santa Cruz de la Sierra", "detalle": "Departure along the Bioceanic Highway" },
+      { "lugar": "San José de Chiquitos", "detalle": "Turn south" },
+      { "lugar": "Taperas", "detalle": "Rest stop and plant interpretation" },
+      { "lugar": "Roboré", "detalle": "End of pavement, start of the 4x4 trail" },
+      { "lugar": "Ranger station", "detalle": "SERNAP registration" },
+      { "lugar": "Base camp", "detalle": "Tent setup and sunset viewing" },
+      { "lugar": "Tracking circuit", "detalle": "Walking routes, guanaco tracks, wildlife and plants" },
+      { "lugar": "High guanaco activity zone", "detalle": "Viewing, photography and citizen science" }
+    ]
+  },
+
+  "alojamiento": {
+    "titulo": "No hotel rooms here: we sleep under the stars",
+    "descripcion": "You’ll spend the night in tents at a camp inside the protected area. We bring all the expedition gear, so you only need your clothes and a warm layer.",
+    "puntos": [
+      "Tents and expedition camping gear included",
+      "Full meals prepared by cooks from San José de Chiquitos",
+      "Days can top 104 °F (40 °C) and nights get cool: bring a warm layer"
+    ]
+  },
+
+  "sostenibilidad": {
+    "titulo": "Travel without a trace",
+    "introduccion": "The expedition is designed so Kaa-Iya stays as we found it, and so conservation benefits the people who live in the Chaco.",
+    "compromisos": [
+      {
+        "titulo": "Leave No Trace",
+        "descripcion": "We only use routes authorized by SERNAP, Bolivia’s protected areas service, to prevent erosion and disturbance. All waste leaves the park with us."
+      },
+      {
+        "titulo": "Direct local impact",
+        "descripcion": "We work with rangers from the Charagua Iyambae Indigenous Autonomy and with guides, drivers and cooks from San José de Chiquitos. Local jobs give communities a reason to protect the guanaco instead of hunting it."
+      }
+    ]
+  },
+
+  "infoPractica": [
+    {
+      "titulo": "What’s included",
+      "items": [
+        "Specialized 4x4 transport with driver",
+        "Bilingual naturalist guide and local guide",
+        "All field meals and drinking water",
+        "Expedition camping gear",
+        "Use of binoculars and spotting scopes",
+        "Protected area entrance fees",
+        "Conservation certificate"
+      ]
+    },
+    {
+      "titulo": "What to bring",
+      "items": [
+        "Lightweight, neutral-colored clothing",
+        "A warm layer for the night",
+        "Hiking boots",
+        "Insect repellent",
+        "Sunscreen",
+        "Camera with a telephoto lens",
+        "Headlamp"
+      ]
+    },
+    {
+      "titulo": "Safety and guarantees",
+      "items": [
+        "Certified drivers and vehicles with preventive maintenance",
+        "Guides with WFR certification and a first-aid kit",
+        "Satellite and radio communication",
+        "Clear evacuation protocols",
+        "Daily weather and wildfire monitoring, with rescheduling if access closes"
+      ]
+    }
+  ]
+}

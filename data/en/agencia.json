@@ -1,0 +1,78 @@
+{
+  "nombre": "Natuvia Travel",
+  "marca": { "nombre": "Natuvia", "complemento": "Travel" },
+  "descripcionCorta": "Nature and adventure travel company. We design low-impact expeditions that support conservation and local communities.",
+  "canalReserva": "email",
+  "contacto": {
+    "whatsapp": "59170000000",
+    "whatsappVisible": "+591 700 00000",
+    "email": "reservas@natuviatravel.com",
+    "ciudad": "Santa Cruz de la Sierra, Bolivia"
+  },
+  "redes": [
+    { "nombre": "Instagram", "url": "https://instagram.com/" },
+    { "nombre": "TikTok", "url": "https://tiktok.com/" },
+    { "nombre": "Facebook", "url": "https://facebook.com/" }
+  ],
+  "navegacion": [
+    { "texto": "The experience", "destino": "#experiencia" },
+    { "texto": "Activities", "destino": "#actividades" },
+    { "texto": "Itinerary", "destino": "#itinerario" },
+    { "texto": "Good to know", "destino": "#info" }
+  ],
+  "textos": {
+    "carrusel": { "anterior": "Previous photo", "siguiente": "Next photo", "pausar": "Pause", "reanudar": "Play" },
+    "barra": { "aria": "Trip summary", "desde": "From" },
+    "idioma": "Language",
+    "saltar": "Skip to content",
+    "navAria": "Main",
+    "menu": "Menu",
+    "cerrar": "Close",
+    "reservar": "Book now",
+    "contacto": "Contact",
+    "redes": "Follow us",
+    "ficha": {
+      "aria": "Package summary",
+      "destino": "Destination",
+      "duracion": "Duration",
+      "modalidad": "Travel style",
+      "grupo": "Group size",
+      "grupoValor": "Up to {n} travelers",
+      "precio": "Price per person"
+    },
+    "actividades": {
+      "titulo": "Activities",
+      "intro": "The guanaco is the heart of the trip, but the Chaco has much more to show in these two days."
+    },
+    "itinerario": {
+      "titulo": "Itinerary",
+      "dia": "Day",
+      "tabsAria": "Expedition days",
+      "principal": "Main activity"
+    },
+    "info": {
+      "titulo": "Good to know",
+      "intro": "What's included, what to pack and how we keep you safe in remote areas."
+    },
+    "reserva": {
+      "titulo": "Book your expedition",
+      "texto": "Each departure takes up to {n} travelers. Send us your preferred date and we'll confirm availability.",
+      "nombre": "Full name",
+      "fecha": "Preferred date",
+      "personas": "Travelers",
+      "comentarios": "Comments (optional)",
+      "boton": "Send booking request",
+      "ayuda": "Your email app will open with the request ready to send. Prefer to chat? Message us on {alterno}.",
+      "mensaje": {
+        "asunto": "Booking request: {paquete}",
+        "saludo": "Hi, I'd like to book the {paquete}.",
+        "nombre": "Name",
+        "fecha": "Preferred date",
+        "personas": "Travelers",
+        "comentarios": "Comments"
+      }
+    },
+    "foto": "Photo",
+    "ampliar": "Enlarge photo: {nombre}"
+  }
+}
